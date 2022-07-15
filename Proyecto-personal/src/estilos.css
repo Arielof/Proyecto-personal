@@ -1,0 +1,61 @@
+:root {
+    --color-dark: #1b1b1b;
+    --color-light: #ffffff;
+    --color-red: #69140f;
+    --color-blue: #0979b0;
+}
+
+body {
+    font-family: 'Arima', cursive;
+    font-family: 'Gentium Book Plus', serif;
+    background-color: var(--color-blue);
+    color: var(--color-red);
+}
+
+.navbar {
+    background-color: var(--color-red);
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #1a1a1a;
+}
+
+.logo-brand {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.lead-xl {
+    font-size: 1.75rem;
+}
+
+.nav-link {
+    margin-left: 2rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 2%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 5em;
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    background-image: none;
+    background-color: #0979b0;
+    border-color: whitesmoke;
+    border-radius: 30px;
+}
+
+.footer {}
